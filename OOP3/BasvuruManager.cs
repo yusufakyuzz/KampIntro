@@ -6,19 +6,23 @@ namespace OOP3
 {
     class BasvuruManager
     {
-        //Method injection
-        public void BasvuruYap(IKrediManager krediManager, List<ILoggerService> loggerServices)
+        public void BasvuruYap(IKrediManager krediManager,List<ILoggerService> loggerServices)
         {
-            //Başvuran bilgilerini değerlendirme
-            //
+            //başvuruda çeşitli bilgiler alırız
+            //başvuran bilgilerini değerlendirme
+
+            //BURADA BAŞVURU YAP IKREDIMANAGER hepsinin referansını tuttuğu için. BaşvuruYap metoduna
+            //taşıt gönderirsen taşıtkredisi hepsalası çalışır. Konut gönderirsen konut kredisi HESAPLASI çalışır.
+
             krediManager.Hesapla();
             foreach (var loggerService in loggerServices)
             {
                 loggerService.Log();
             }
+
         }
 
-        public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler)
+        public void KrediOnBilgilendirmesiYap(List<IKrediManager> krediler) 
         {
             foreach (var kredi in krediler)
             {

@@ -13,9 +13,6 @@ namespace OOP3
 
         public void Hesapla()
         {
-            //
-            //
-
             Console.WriteLine("Taşıt kredisi ödeme planı hesaplandı");
         }
     }
