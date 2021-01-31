@@ -18,10 +18,10 @@ namespace GameProject
              
 
             ////////////////KAMPANYA EKLEME SİLME GÜNCELLEME////////////////////
-            Campaign newCampaign = new Campaign();
-            newCampaign.CampaignId = 1;
-            newCampaign.CampaignName = "Sevgililer Günü Kampanyası";
-            newCampaign.CampaignPrice = 65;
+            Campaign newCampaign = new Campaign();                      //kampanya nesnesi oluşturuyoruz.
+            newCampaign.CampaignId = 1;                                 // nesneye değer ataması yapıyoruz
+            newCampaign.CampaignName = "Sevgililer Günü Kampanyası";    // nesneye değer ataması yapıyoruz
+            newCampaign.CampaignPrice = 65;                             // nesneye değer ataması yapıyoruz
             newCampaign.CampaignStock = 18;
 
             CampaignManager campaignManager = new CampaignManager();
@@ -36,14 +36,14 @@ namespace GameProject
 
 
 
-            Sales satis = new Sales();
-            satis.SalesId = 2;
-            satis.SalesName = "Oyun";
+            Sales satis = new Sales();      // satış sınıfından nesne oluşturuyoruz.
+            satis.SalesId = 2;              // nesneye değer ataması yapıyoruz
+            satis.SalesName = "Oyun";       // nesneye değer ataması yapıyoruz
 
-           
 
-            SalesManager salesManager = new SalesManager();
-            salesManager.Satis(gamer1, newCampaign);
+
+            SalesManager salesManager = new SalesManager();     // satışManager sınıfından nesne oluşturuyoruz.
+            salesManager.Satis(gamer1, newCampaign);            // Satışa ait opsiyonları/işi söylüyoruz.
 
 
 

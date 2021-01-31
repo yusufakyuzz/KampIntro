@@ -10,5 +10,6 @@ namespace GameProject
         {
             Console.WriteLine(game.GamerFirstName+ " oyuncusuna "+campaign.CampaignName +" ile satış yapıldı.");
         }
+        //amacımız satış yaparken Satış snıfımızda ki olayların ne olacağını belirlediğimiz yerdir.
     }
 }

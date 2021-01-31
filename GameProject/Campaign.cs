@@ -10,6 +10,6 @@ namespace GameProject
         public string CampaignName { get; set; }
         public int CampaignPrice { get; set; }
         public int CampaignStock { get; set; }
-
+        //burada kampanya sınıfı oluşturup kullanacağımız değerleri belirlemek
     }
 }

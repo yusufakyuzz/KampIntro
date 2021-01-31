@@ -20,5 +20,7 @@ namespace GameProject
         {
             Console.WriteLine("Kampanya güncellendi");
         }
+        //kampanya servisimizi class ımıza implemente ettikten sonra hangi aksiyonları yapacağımızı yazdık.
+        //burada ki Add Update  Delete ICampaignService den gelmektedir.
     }
 }
