@@ -32,7 +32,7 @@ namespace DegerVeReferansTipler
              * Biz bellekteki adres için ne diyoruz 
              * SAYİLAR1 in fiziksel adresini SAYİLAR2 nin adresi ile değiştir.
              * Yani ne oldu 100,200,300 ü artık SAYİLAR1 de tutuyor.
-             * Haliyle SAYİLAR2 nin değerini değiştirdiğimizde onun fiziksel adresini SAYİLAR1 de tuttuğu için sonuç 999 olur.
+             * Haliyle SAYİLAR2 nin değerini değiştirdiğimizde onun fiziksel adresini SAYİLAR1 de tuttuğu için sonuç 999 olur.  
              */
         }
     }
