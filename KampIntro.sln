@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odev2", "Odev2\Odev2.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Odevler", "Odevler", "{842E7D2B-D0D0-495C-A3BF-89C6EC7FFCA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{D27375C9-A696-40E2-AD57-EE9CD88969D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{D27375C9-A696-40E2-AD57-EE9CD88969D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{FB6B1FA5-152C-4E2B-BDC5-5A2A14184E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{FB6B1FA5-152C-4E2B-BDC5-5A2A14184E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{D79837DF-4C36-42CA-B7C3-3F69668EDCC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{D79837DF-4C36-42CA-B7C3-3F69668EDCC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{064AE6AF-2794-4FE5-9EB7-9410C79DC99E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,12 +55,17 @@ Global
 		{D79837DF-4C36-42CA-B7C3-3F69668EDCC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79837DF-4C36-42CA-B7C3-3F69668EDCC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79837DF-4C36-42CA-B7C3-3F69668EDCC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064AE6AF-2794-4FE5-9EB7-9410C79DC99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064AE6AF-2794-4FE5-9EB7-9410C79DC99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064AE6AF-2794-4FE5-9EB7-9410C79DC99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064AE6AF-2794-4FE5-9EB7-9410C79DC99E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E01F58E2-3739-42EA-988C-D117C76DA7AF} = {842E7D2B-D0D0-495C-A3BF-89C6EC7FFCA7}
+		{064AE6AF-2794-4FE5-9EB7-9410C79DC99E} = {842E7D2B-D0D0-495C-A3BF-89C6EC7FFCA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {07832DB6-09F2-4854-B902-1714E5125043}
