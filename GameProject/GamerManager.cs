@@ -4,21 +4,22 @@ using System.Text;
 
 namespace GameProject
 {
-    class GamerManager : IGamerManager
+    class GamerManager : IGameService
     {
-        public void Add(GamerManager gamer)
+       
+        public void Ekle(Gamer gamer)
         {
-            Console.WriteLine("Oyuncu eklendi : "+ gamer);
+            Console.WriteLine("Oyuncu ekleme başarılı : "+gamer.Adi+" "+gamer.Soyadi);
         }
 
-        public void Delete(GamerManager gamer)
+        public void Guncelle(Gamer gamer)
         {
-            Console.WriteLine("Oyuncu silindi : ");
+            Console.WriteLine("Oyuncu güncelleme başarılı : " + gamer.Adi + " " + gamer.Soyadi);
         }
 
-        public void Update(GamerManager gamer)
+        public void Sil(Gamer gamer)
         {
-            Console.WriteLine("Oyuncu güncellendi : ");
+            Console.WriteLine("Oyuncu silme başarılı : " + gamer.Adi + " " + gamer.Soyadi);
         }
     }
 }

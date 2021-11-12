@@ -6,16 +6,27 @@ namespace GameProject
     {
         static void Main(string[] args)
         {
-            Gamer oyuncu1 = new Gamer();
-            oyuncu1.GamerId = 1;
-            oyuncu1.FirstName = "Yusuf";
-            oyuncu1.LastName = "Akyüz";
-            oyuncu1.NationalId = "12345678900";
-            oyuncu1.BirthDate = "1992";
+            Gamer oyuncu1 = new Gamer() { Id = 1,Adi="Yunus",Soyadi="Akyüz",TcNo="123456789",DogumYili="1992" };
 
-            IGamerManager gamerManager = new GamerManager();
-            gamerManager.Add(oyuncu1);
+           
+
+            UserValidateManager validateManager = new UserValidateManager();
+            validateManager.UserValidate(oyuncu1);
+
+            GamerManager gamerManager = new GamerManager();
+            gamerManager.Ekle(oyuncu1);
+
+            Kampanya kampanya = new Kampanya() {Id=1,Adi="Bahar Kampanyasi",IndirimOrani="35" };
+            KampanyaManager kampanyaManager = new KampanyaManager();
+            kampanyaManager.Ekle(kampanya);
+
+            Satis satis = new Satis();
+            satis.Id = 1;
+            satis.Price = 150;
+
+            SatisManager satisManager = new SatisManager();
+            satisManager.Sat(kampanya,satis , validateManager);
+
         }
-
     }
 }
